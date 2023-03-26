@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GapTraderWpf", "GapTraderWpf\GapTraderWpf.csproj", "{5E4C85CE-06ED-4BD6-9EA1-7A00EEC9FC1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GapTraderWpf", "GapTraderWpf\GapTraderWpf.csproj", "{5E4C85CE-06ED-4BD6-9EA1-7A00EEC9FC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GapTraderCore", "GapTraderCore\GapTraderCore.csproj", "{02A6AFBD-1A9D-400D-90BA-168E01ADB943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmArchitecture", "MvvmArchitecture\MvvmArchitecture.csproj", "{4A4ADFB0-5EF3-4945-A67A-66AEF5231145}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5E4C85CE-06ED-4BD6-9EA1-7A00EEC9FC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E4C85CE-06ED-4BD6-9EA1-7A00EEC9FC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E4C85CE-06ED-4BD6-9EA1-7A00EEC9FC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A6AFBD-1A9D-400D-90BA-168E01ADB943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A6AFBD-1A9D-400D-90BA-168E01ADB943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A6AFBD-1A9D-400D-90BA-168E01ADB943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A6AFBD-1A9D-400D-90BA-168E01ADB943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4ADFB0-5EF3-4945-A67A-66AEF5231145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4ADFB0-5EF3-4945-A67A-66AEF5231145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4ADFB0-5EF3-4945-A67A-66AEF5231145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4ADFB0-5EF3-4945-A67A-66AEF5231145}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

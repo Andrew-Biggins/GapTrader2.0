@@ -7,4 +7,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GapTraderCore\GapTraderCore.csproj" />
+    <ProjectReference Include="..\MvvmArchitecture\MvvmArchitecture.csproj" />
+  </ItemGroup>
+
 </Project>
